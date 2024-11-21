@@ -1,0 +1,61 @@
+/* General reset */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.search-form {
+    margin-top: 15px;
+}
+
+.search-box {
+    width: 700px;
+    height: 80px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 0 25px;
+    font-size: 22px;
+    outline: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.search-button,
+.lucky-button {
+    background-color: #f8f9fa;
+    border: 1px solid #dcdcdc;
+    color: #5f6368;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.search-button:hover,
+.lucky-button:hover {
+    background-color: #eff0f0;
+}
+
+.search-button:active,
+.lucky-button:active {
+    background-color: #e8e8e8;
+}
